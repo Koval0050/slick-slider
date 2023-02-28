@@ -2,8 +2,8 @@ $(document).ready(function () {
   $(".slider").slick({
     slidesToShow: 1, // показуємо 1 цілу картинку та половинку наступної
     infinity: true,
-    centerPadding: "218px",
-    centerMode: true, // включаємо центровий режим
+    // centerPadding: "218px",
+    // centerMode: true, // включаємо центровий режим
     focusOnSelect: true, // змінюємо слайд при кліку на половинку
     dots: true,
     arrows: false, // вимикаємо стандартні стрілки
